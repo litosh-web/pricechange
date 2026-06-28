@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="pricechange" baseClass="xPDOObject" platform="mysql" defaultEngine="MyISAM" version="1.1">
+
+    <object class="PriceChangeDefault" table="pricechange_default" extends="xPDOSimpleObject">
+        <field key="type" dbtype="text" phptype="string" null="false"/>
+        <field key="tv_name" dbtype="text" phptype="string" null="true"/>
+        <field key="scope" dbtype="int" phptype="integer" null="false"/>
+        <field key="categories" dbtype="text" phptype="string" null="true"/>
+    </object>
+
+</model>

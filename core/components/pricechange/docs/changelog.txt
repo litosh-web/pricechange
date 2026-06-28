@@ -1,0 +1,19 @@
+1.0.4
+==============
+- Some changes
+
+1.0.3
+==============
+- Added 2 events: pcBeforeUpdateResource, pcAfterUpdateResource
+
+1.0.2
+==============
+- Some changes
+
+1.0.1
+==============
+- Added protection by modstore.pro
+
+1.0.0
+==============
+- Initial release.
